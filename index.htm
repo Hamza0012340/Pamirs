@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">  
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#section1">About Pamirs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section2">Fauna</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section3">Flora </a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        More
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section41">Mountains</a>
+        <a class="dropdown-item" href="#section42">Home</a>
+        <a class="dropdown-item" href="#section43">Livestock</a>
+        <a class="dropdown-item" href="#section44">Cultural diversity
+        </a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+<div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <h1>About Pamirs</h1>
+  <p>Pamirs, also called Pamir, highland region of Central Asia. The Pamir mountain area centres on the nodal orogenic uplift known as the Pamir Knot, from which several south-central Asian mountain ranges radiate, including the Hindu Kush, the Karakoram Range, the Kunlun Mountains, and the Tien Shan. Most of the Pamirs lie within Tajikistan, but the fringes penetrate Afghanistan, China, and Kyrgyzstan. The core of the Pamirs is in the highlands of Tajikistan, with the highest mountains in the Gorno-Badakhshan autonomous oblast (province).</p>
+</div>
+<div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+  <h1>Fauna</h1>
+  <p>The Pamir region in Tajikistan, specifically where it nears the border with Afghanistan, is one of the best wildlife watching spots in Tajikistan. Here, you will find all sorts of local fauna and flora, such as the Marco Polo sheep, Tian Shan brown bear, Pamir ibex, markhors, and even the occasional snow leopard.</p>
+  <div class="container">
+    <p>
+      <hr>
+       Predators
+      <hr>
+      <img src = "fauna.jpg" class="container" style="text-align: center;">
+    </p>
+    <hr>
+  </div>
+</div>
+<div id="section3" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
+  <h1>Flora</h1>
+  <div class="container">
+    <p>
+      <hr>
+       Plants
+      <hr>
+      <p>FOR this useful addition to our knowledge of the Pamir plateau we are indebted to the enlightened policy of the Government of India, who, in attaching Mr. Alcock as naturalist to the Commission despatched in 1895 to demarcate the boundary between Afghan and Russian territory, followed the course adopted on several previous occasions, as when the late Dr. Stoliczka was sent as naturalist with the Yarkand mission in 1873–74, and when Dr. J. Anderson was added to the two expeditions to Yunnan in 1868 and 1875. The Indian Government have added to the value of the observations made by publishing the results, which comprise a few general remarks on the fauna, flora and geology, and a descriptive list of the specimens obtained.</p>
+      <img src = "flora.jpg" class="container" style="text-align: center;">
+
+    </p>
+    <hr>
+  </div>
+</div>
+<div id="section41" class="container-fluid bg-light" style="padding-top:70px;padding-bottom:70px">
+  <h1>Mountains</h1>
+  <div class="container">
+    <p>
+      <hr>
+       Ismoili Somoni Peak 7.495 m
+      <hr>
+      <img src = "nature1.jpg" class="container" style="text-align: center;">
+    </p>
+    <hr>
+  </div>
+  <p id="p1"></p>
+  <script>
+     var today = new Date();
+     var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+     document.getElementById("p1").innerHTML = date + "<br>" + time;
+  </script>
+</div>
+<div id="section42" class="container-fluid bg-light" style="padding-top:70px;padding-bottom:70px">
+  <h1>Home </h1>
+  <div class="container">
+    <p>
+      <hr>
+       Traditional Pamirian House 
+      <hr>
+      <img src = "home.jpg" class="container" style="text-align: center;">
+    </p>
+    <hr>
+  </div>
+  <p>People in Pamir have a different language, culture, and religion to the Tajiks.  Even their houses stand out with their beauty and symbolism.  It is a tradition to build a house as a family, instead of buying one. </p>
+</div>
+<div id="section43" class="container-fluid bg-light" style="padding-top:70px;padding-bottom:70px">
+  <h1>Livestock</h1>
+
+  <div class="container">
+    <p>
+      <hr>
+       A big variety of livestock
+      <hr>
+      <img src = "livestock.jpg" class="container" style="text-align: center;">
+    </p>
+    <hr>
+  </div>
+  <p>The Pamir is a high plateau in Tajikistan. Pastoralism is the primary activity in the high pastures of this region, and yaks are the most important type of livestock.</p>
+</div>
+<div id="section44" class="container-fluid bg-light" style="padding-top:70px;padding-bottom:70px">
+  <h1>Cultural diversity</h1>
+
+  <div class="container">
+    <p>
+      <hr>
+       Rich culture 
+      <hr>
+      <img src = "diversity.jpg" class="container" style="text-align: center;">
+    </p>
+    <hr>
+  </div>
+  <p>The Pamir owes much of its cultural richness to having sat on the periphery of empires. Today bordering Afghanistan, China, Kyrgyzstan and Tajikistan proper, it has marked the rotating boundaries of various Russian, Mongol, British, Persian, Chinese and Turkic domains.</p>
+</div>
+
+</body>
+</html>
